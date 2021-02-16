@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore, db
 
 def start_database_conection():
-    cred = credentials.Certificate("./android-e2335-firebase-adminsdk-jhgwh-318d4c31fe.json")
+    cred = credentials.Certificate("./android-e2335-firebase-adminsdk-sp7ul-2ce84f5ab7.json")
     default_app = firebase_admin.initialize_app(cred,
                                              {'databaseURL': 'https://android-e2335-default-rtdb.firebaseio.com/'})
     client = firestore.client()
